@@ -44,7 +44,7 @@ for r in button_relieves:
 
 
 
-image = Image.open(r"Mr rory.jpg")
+image = Image.open(r'Mr rory.jpg')
 bk_img=ImageTk.PhotoImage(image)
 btn_try_pic=tk.Button(top_win,text='try pic',compound='center',image=bk_img)
 btn_try_pic.pack()

@@ -38,8 +38,7 @@ entry_classtext2=tk.Entry(
     show=None,
     textvariable=default_var,
     font=('Arial',14)
-
-)
+    )
 def cmd_login():
     un=entry_classtext.get()
     pw=entry_classtext2.get()
@@ -48,7 +47,6 @@ def cmd_login():
             tk.messagebox.showinfo(title='sign in',message='login success')
         else:
             tk.messagebox.showerror(title='Error',message='wrong password')
-
     else:
         tk.messagebox.showerror(title='Error',message='wrong username')
     return

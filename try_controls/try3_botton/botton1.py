@@ -41,7 +41,7 @@ btn_help.pack()
 button_relieves = ('flat', 'groove', 'raised', 'ridge', 'solid', 'sunken')
 
 for r in button_relieves:
-    tk.Button(top_win,text=r,relief=r,width=10,height=2).pack()
+    tk.Button(top_win,text=r,relief=r,command=cmd_pop,width=10,height=2).pack()
 
 
 top_win.mainloop()
