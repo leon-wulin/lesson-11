@@ -44,7 +44,7 @@ combo_city=ttk.Combobox(top_win,width=20,state='readonly')
 combo_city['values']=data_cities[0]
 combo_city.place(x=220,y=40)
 combo_city.current(0)
-lbl_info=tk.Label(top_win,width)
+lbl_info=tk.Label(top_win,width=20)
 
 
 
